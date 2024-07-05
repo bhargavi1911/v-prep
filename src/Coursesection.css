@@ -1,0 +1,280 @@
+#coursesection{
+    height: 1000px;
+    width: 1930px;
+    border: 1px solid transparent;
+    background:  rgb(240, 240, 240);
+    font-family: 'Oswald';
+    margin-left: -11px;
+    margin-top: -1px;
+}
+
+#aboutb, #contactb{
+    visibility: hidden;
+}
+
+#header{
+    background-color: #222429 ;
+    display: flex;
+    height: 100px;
+}
+
+#logo{
+    color: rgb(255, 94, 0);
+    display: inline-block;
+    font-size: 60px;
+    font-family: 'Oswald';
+    margin-left: 160px;
+    margin-top: 2px;
+}
+
+#ihomeb,#aboutb,#contactb{
+    cursor: pointer;
+    font-family: 'Oswald';
+    color: white;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 38px;
+    font-weight: 400;
+    transition-property: color;
+    transition-duration: 400ms;
+}
+#ihomeb{
+    margin-left: 120px;
+}
+
+#ihomeb:hover,#aboutb:hover,#contactb:hover{
+    color: rgb(255, 94, 0);
+}
+
+#logoutb{
+    position: absolute;
+    margin-left: 1550px;
+    color: rgb(255, 94, 0);
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: 'Oswald';
+    visibility: hidden;
+    cursor: pointer;
+}
+
+
+#coursetop{
+    background-color: aliceblue;
+    height: 300px;
+    width: 1200px;
+    margin-left: 300px;
+    margin-top: 30px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px 2px gray;
+}
+
+#courseregister{
+    position: absolute;
+    top:150px;
+    left:1440px;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(255, 94, 0);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 2px 2px 1px gray;
+}
+
+#courseregister:hover{
+    color:white;
+}
+
+#coursetop h3{
+    font-size: 20px;
+    position: absolute;
+    top: 140px;
+    left: 360px;
+}
+
+#coursetable{
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    width: 1170px;
+}
+#columnh1{
+    width: 1000px;
+}
+
+#tablepanel{
+    height: 230px;
+    margin-top: 60px;
+    overflow-y: scroll;
+}
+
+#columnd1{
+    width: 1000px;
+}
+
+th{
+    background-color: rgb(220, 231, 255);
+    font-size: 20px;
+}
+td{
+    text-align: center;
+    background-color: rgb(247, 232, 215);
+    height: 40px;
+    border-radius: 7px;
+    
+}
+
+
+#tablerows{
+    width: 1170px;
+    margin-left: 10px;
+}
+
+#removebutton{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(255, 56, 56);
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+    color:white;
+}
+
+#removebutton:hover{
+    color:black;
+}
+
+
+#coursetop p{
+    color: gray;
+    margin-left: 20px;
+
+}
+
+
+#coursebottom{
+    background-color: aliceblue;
+    height: 250px;
+    width: 1300px;
+    margin-left: 300px;
+    margin-top: 30px;
+    padding-top: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px 2px gray;
+    overflow: hidden;
+}
+
+#coursebottom h3{
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+
+#coursepanelbot{
+    margin-left: -10px;
+    width: 1230px;
+}
+.acourse{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(247, 232, 215);
+    margin-left: 60px;
+    display: inline;
+    border-radius: 10px;
+    cursor: pointer;
+    color: orange;
+}
+.acourse:hover{
+    transform: scale(1.1);
+    transition: 100ms;
+}
+
+#courseform{
+    visibility: hidden;
+    position: absolute;
+    background-color: aliceblue;
+    height: 300px;
+    width: 1200px;
+    left: 290px;
+    top: 130px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px 2px gray;
+}
+
+#courseinput{
+    width: 350px;
+    height: 50px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 3px 3px 2px gray;
+    font-size: 20px;
+    margin-left: 425px;
+    margin-top: 65px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+#coursebuttons{
+    display: flex;
+    margin-top: 30px;
+}
+
+#addcoursebutton{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(255, 94, 0);
+    margin-left: 480px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    box-shadow: 1px 3px 3px 2px gray;
+    cursor: pointer;
+}
+
+#addcoursebutton:hover{
+    color:white;
+}
+
+#cancelcoursebutton{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color:  rgb(255, 94, 0);
+    margin-top: 0px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    box-shadow: 1px 3px 3px 2px gray;
+    cursor: pointer;
+}
+
+#cancelcoursebutton:hover{
+    color:white;
+}
+
+.acourse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(221, 88, 0);
+
+}
+
+#availcourses a{
+    text-decoration: none !important;
+    color : black;
+}
+
+#availtemp{
+    display: inline-flex;
+
+}
+#availcourses{
+    display: inline-flex;
+}

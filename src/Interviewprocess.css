@@ -1,0 +1,248 @@
+#interviewprocess{
+    height: 1000px;
+    width: 1920px;
+    border: 1px solid transparent;
+    background:  #222429;
+}
+#ibackb,#ibegin{
+    margin-top: 400px;
+    margin-left: 860px;
+    font-family: 'Oswald';
+    cursor: pointer;
+    height: 60px;
+    width: 220px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    transition-property: background,color;
+    transition-duration: 500ms;
+    font-weight: 500;
+}
+
+#ibackb{
+    position: absolute;
+    margin-left: 1570px;
+    z-index: 1;
+    margin-top: 50px;
+    width: 120px;
+    background-color: rgb(255, 54, 54);
+}
+
+#ibegin:hover{
+    background-color: rgb(255, 94, 0);
+    color: white;
+}
+#ibackb:hover{
+    color: white;
+}
+
+#controls{
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: -100px;
+    margin-left: 300px;
+}
+#tempmes{
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+#interviewingblock{
+    overflow-y: auto;
+    height: 700px;
+    width: 1480px;
+    background-color: whitesmoke;
+    margin-top: 120px;
+    margin-left: 210px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    padding: 20px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    background-image: url(img/meeting.png);
+    background-size: 100% 100%;
+    
+}
+#ccompany{
+    font-size: 35px;
+    margin-bottom: 0px;
+    color : orangered;
+
+}
+#botmes{
+    height:auto;
+    width: fit-content;
+    background-color: rgb(252, 255, 206);
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 98%;
+    margin-top: -10px;
+    color: black;
+}
+
+
+#usermes{
+    height:auto;
+    width: fit-content;
+    background-color: rgb(204, 203, 255);
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 98%;
+    margin-top: -10px;
+    color: black;
+    float: right;
+    margin-right: 10px;
+}
+
+#loadingscreen{
+    position: absolute;
+    height: 1080px;
+    width: 1925px;
+    background-color: #222429;
+    top:0px;
+    left: 0px;
+    text-align: center;
+}
+#ibegin{
+    margin-left: 0px;
+}
+
+#loadingtext{
+    margin-top: -50px;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.699);
+}
+
+@keyframes slideup {
+    0%{
+        margin-top: -50px;
+    }
+    100%{
+        margin-top: -150px;
+        opacity: 0;
+    }
+}
+
+#analysisboard{
+    visibility: hidden;
+    position: absolute;
+    height: 1080px;
+    width: 1925px;
+    background-color: #222429;
+    top:0px;
+    left: 0px;
+    text-align: center;
+    color : rgba(255, 255, 255, 0.699);
+}
+
+#analysisboard #ccompany{
+    margin-top: 50px;
+}
+
+#analysisboard p{
+    font-size: 18px;
+}
+
+#rating{
+    font-size: 100px;
+    font-weight: 900;
+    margin-top: -20px;
+    margin-bottom: -15px;
+    color: white;
+}
+
+#scoretag{
+    margin-top: 10px;
+}
+
+#aboxes{
+    margin-top: 50px;
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#abox1{
+    margin-left: 250px;
+    height: 200px;
+    width: 300px;
+    background-color: rgb(184, 255, 199);
+    border-radius: 20px;
+}
+#abox2{
+    margin-left: 250px;
+    height: 200px;
+    width: 300px;
+    background-color: rgb(193, 230, 255);
+    border-radius: 20px;
+}
+#abox3{
+    margin-left: 250px;
+    height: 200px;
+    width: 300px;
+    background-color: rgb(253, 231, 189);
+    border-radius: 20px;
+}
+
+#analysisboard h3{
+    margin-top: 150px;
+    margin-left: -1120px;
+    font-size: 30px;
+}
+#showwrong{
+    cursor: pointer;
+    box-shadow: 2px 3px 2px 2px rgb(104, 38, 0);
+    height: 30px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    border: none;
+    background-color: orangered;
+    margin-top:20px;
+    color : rgba(255, 255, 255, 0.87);
+}
+#checkwrong{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    overflow-y: auto;
+    height: 300px;
+    border-radius: 20px;
+    visibility: hidden;
+}
+
+#wrongbox{
+    border-radius: 20px;
+    text-align: left;
+    width: 70%;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    color : black;
+    padding: 20px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 14%;
+}
+ 
+#wrongbox div{
+    display: inline-block;
+}
+
+#wrongleft{
+    width: 90%;
+    word-wrap: break-word;
+}
+#points{
+    font-size: 50px;
+    text-align: center;
+}

@@ -1,0 +1,119 @@
+#profilesection{
+    height: 1000px;
+    width: 1930px;
+    border: 1px solid transparent;
+    background:  #222429;
+    font-family: 'Oswald';
+    margin-left: -11px;
+    margin-top: -1px;
+    
+}
+
+#profileblock{
+    border: 1px solid transparent;
+    height: 800px;
+    width: 1500px;
+    margin-left: 210px;
+    margin-top: 80px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 30px;
+}
+
+#leftprofile{
+    border: 1px solid transparent;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(255, 107, 54);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+#ppic{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 150px;
+    background-image: url(img/profile.png);
+    background-size: 100% 100%;
+}
+
+#pdetails{
+    height: fit-content;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#rightprofile{
+    position: absolute;
+    top:83px;
+    height: 800px;
+    width: 1025px;
+    left:660px
+}
+#profileback{
+    font-size: 30px;
+    position: absolute;
+    left: 950px;
+    top:10px;
+    width: fit-content;
+    padding-left:10px;
+    padding-right: 10px;
+    color : white;
+    cursor: pointer;
+    height: fit-content;
+    background-color: rgb(255, 59, 59);
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px 1px gray;
+}
+
+#rightprofile h3{
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+#tablehead{
+    font-size: 25px;
+    display: flex;
+    margin-left: 70px;
+    background-color: rgb(172, 172, 172);
+    width: 800px;
+    padding-left: 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#ascoretag{
+    margin-left: 400px;
+}
+
+#interviewstable{
+    height: 550px;
+    overflow-y: scroll;
+}
+#interviewrow{
+    background-color: #a6d7ff;
+    margin-left: 70px;
+    padding-left: 30px;
+    display: flex;
+    width: 800px;
+    height:  fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+#bintername{
+    width: 500px;
+    word-wrap: break-word;
+}
+
+#bscoretag{
+    width:200px;
+    padding-left: 100px;
+}

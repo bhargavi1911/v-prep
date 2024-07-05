@@ -1,0 +1,88 @@
+#registerform{
+  background-color: aliceblue;
+  margin-left: 700px;
+  margin-top: 100px;
+  padding: 50px;
+  width: fit-content;
+  border-radius: 10px;
+  height: 550px;
+  position: absolute;
+  z-index: 0;
+  transition: 1000ms;
+  transform: scale(0.8);
+  background-size: 100% 100%;
+  background-image: url(img/bg1.jpg);
+}
+
+#registerform input{
+  width: 380px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(231, 230, 230);
+
+}
+
+#registerform b{
+  margin-left: 178px;
+  color: rgb(255, 94, 0);
+  cursor: pointer;
+}
+
+#registerform button{
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  margin-left: 125px;
+  background-color: rgb(255, 94, 0);
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgb(180, 180, 180);
+}
+#registerform h1{
+  margin-left: 47px;
+  margin-bottom: -10px;
+  margin-top: 0px;
+}
+
+@keyframes closeregister {
+  0%{
+    margin-top: 100px;
+    z-index: 2;
+  }
+  50%{
+    margin-top: -200px;
+    transform: scale(1);
+    z-index: 2;
+  }
+  51%{
+    z-index: 1;
+  }
+  100%{
+    transform: scale(0.7);
+  }
+}
+
+@keyframes openlogin {
+  0%{
+    margin-top: 100px;
+    z-index: 1;
+  }
+  50%{
+    margin-top: 450px;
+    transform: scale(0.7);
+    z-index: 1;
+  }
+  51%{
+    z-index: 2;
+  }
+  100%{
+    transform: scale(1);
+  }
+}
