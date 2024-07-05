@@ -6,13 +6,13 @@ import { getDatabase, ref, set,onValue } from "firebase/database";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAz_mLmnfGosfEBV3DmemKtbs4SSua2aoA",
+  apiKey: "******",
   authDomain: "interviewbot-bd88c.firebaseapp.com",
   databaseURL: "https://interviewbot-bd88c-default-rtdb.firebaseio.com",
   projectId: "interviewbot-bd88c",
   storageBucket: "interviewbot-bd88c.appspot.com",
   messagingSenderId: "533088317877",
-  appId: "1:533088317877:web:623eaf42612f4a542fa9fc",
+  appId: "*******",
   measurementId: "G-9BFPC9DP5K"
 };
 
