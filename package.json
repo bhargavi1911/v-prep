@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "crypto-js": "^4.2.0",
     "cryptojs": "^2.5.3",
-    "firebase": "^9.16.0",
+    "firebase": "^10.12.3",
     "lodash": "^4.17.21",
     "natural": "^6.2.0",
     "react": "^18.2.0",
